@@ -1,0 +1,5 @@
+fastapi
+uvicorn
+Pillow
+piexif
+#python-multipart  # for file uploads
