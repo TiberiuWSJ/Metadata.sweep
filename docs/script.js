@@ -12,7 +12,7 @@ async function extractMetadata() {
     formData.append("file", fileInput.files[0]);
   
     try {
-      const res = await fetch("https://YOUR_BACKEND_URL/extract-metadata", {
+      const res = await fetch("https://metadata-sweep.onrender.com/extract-metadata", {
         method: "POST",
         body: formData,
       });

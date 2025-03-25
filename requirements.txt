@@ -2,4 +2,4 @@ fastapi
 uvicorn
 Pillow
 piexif
-#python-multipart  # for file uploads
+python-multipart  # for file uploads
