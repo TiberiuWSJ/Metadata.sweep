@@ -1,0 +1,23 @@
+body {
+    font-family: system-ui, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    background: #f7f7f7;
+  }
+  .container {
+    background: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    max-width: 600px;
+    width: 100%;
+  }
+  pre {
+    background: #111;
+    color: #0f0;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    overflow-x: auto;
+  }
+  
